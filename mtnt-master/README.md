@@ -81,9 +81,7 @@ cat MTNT/test/test.en-fr.en | python3 analysis/uk_us_ratio.py
 kytea -model /path/to/kytea/data/model.bin -out tok MTNT/test/test.ja-en.ja | python3 analysis/count_keywords.py resources/informal_pronouns.ja
 ```
 
-## Citing
-
-If you use this code or the MTNT dataset, please cite the following publication:
+## Cititation
 
 ```
 @InProceedings{michel2018mtnt,
